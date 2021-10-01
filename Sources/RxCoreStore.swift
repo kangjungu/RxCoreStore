@@ -30,7 +30,7 @@ import RxSwift
 // MARK: - CoreStore
 
 @available(*, deprecated, message: "Call methods directly from the DataStack instead")
-extension CoreStore {
+extension CoreStoreDefaults {
     
     /**
      Reactive extensions for the `defaultStack`. 
